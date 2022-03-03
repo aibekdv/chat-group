@@ -1,0 +1,33 @@
+.login {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    &__container {
+        display: grid;
+        place-items: center;
+        .MuiSvgIcon-root {
+            font-size: 10rem;
+            color: #0a8d48;
+        }
+    }
+
+    .MuiButton-root {
+        background-color: #0a8d48;
+        color: white;
+        margin: 10px 0px;
+        border-radius: 8px;
+        padding: 5px 10px;
+        &:hover{
+            background-color: #0a8d47dc;
+            color: white;
+        }
+    }
+
+    &__text{
+        margin: 10px 0px;
+    }
+}
